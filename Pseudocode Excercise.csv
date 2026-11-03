@@ -1,0 +1,14 @@
+START
+    PRINT "Enter the total miles driven:"
+    INPUT milesDriven
+    PRINT "Enter the total gallons of fuel used:"
+    INPUT gallonsUsed
+    
+    IF gallonsUsed > 0 THEN
+        mpg = milesDriven / gallonsUsed
+        PRINT "Your vehicle's miles per gallon (MPG) is:"
+        PRINT mpg
+    ELSE
+        PRINT "Error: Gallons used must be greater than zero."
+    ENDIF
+END

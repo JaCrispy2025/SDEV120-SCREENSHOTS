@@ -1,0 +1,25 @@
+START
+    PRINT "Alarm goes off"
+    INPUT userWakesUp
+    
+    IF userWakesUp IS true THEN
+        PRINT "Turn off alarm"
+        PRINT "Get out of bed"
+        PRINT "Take a shower and brush teeth"
+        PRINT "Get dressed"
+        
+        PRINT "Check weather forecast outside"
+        INPUT isRaining
+        
+        IF isRaining IS true THEN
+            PRINT "Grab an umbrella and wear a jacket"
+        ELSE
+            PRINT "Leave umbrella at home"
+        ENDIF
+        
+        PRINT "Eat breakfast and grab backpack"
+        PRINT "Walk to campus or drive to class"
+    ELSE
+        PRINT "Hit snooze and sleep for 10 more minutes"
+    ENDIF
+END

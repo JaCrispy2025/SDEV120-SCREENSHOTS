@@ -1,0 +1,14 @@
+START
+    PRINT "Enter the total monthly rent amount:"
+    INPUT monthlyRent
+    PRINT "Enter the total number of days in the month:"
+    INPUT daysInMonth
+    
+    IF daysInMonth > 0 THEN
+        dailyRent = monthlyRent / daysInMonth
+        PRINT "Your daily rent cost is:"
+        PRINT dailyRent
+    ELSE
+        PRINT "Error: Days in the month must be greater than zero."
+    ENDIF
+END
